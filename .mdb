@@ -1,0 +1,9 @@
+{
+  "projectName": "i-watch-app",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "yarn",
+  "hash": "d61e22ce",
+  "domain": "iwatch-app.mdbgo.io"
+}

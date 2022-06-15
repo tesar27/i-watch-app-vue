@@ -1,18 +1,12 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="text-3xl font-bold text-amber-600 underline bg-emerald-300">
+    Hello world!
+  </h1>
+  <button class="hover:text-gray-400 hover:bg-gray-700 inline-flex items-center justify-center p-2 rounded-md bg-primary">Save Changes</button>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
 </script>
